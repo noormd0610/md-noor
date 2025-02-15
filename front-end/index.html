@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:3000/register" method="get">
+        <h2>get req</h2>
+<label for="username">USERNAME:</label>
+<input type="text" name="username" id="username">
+<label for="pass">PASSWORD:</label>
+<input type="password" name="pass" id="pass">
+<button>submit</button>
+    </form>
+    <hr><hr>
+    <form action="http://localhost:3000/register" method="post">
+        <h2>post req</h2>
+        <label for="username">USERNAME:</label>
+        <input type="text" name="username" id="username">
+        <label for="pass">PASSWORD:</label>
+        <input type="password" name="pass" id="pass">
+        <button>submit</button>
+            </form>
+    <script src="app.js"></script>
+</body>
+</html>
